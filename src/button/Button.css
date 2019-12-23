@@ -1,0 +1,26 @@
+.Btn {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+.Btn_blue {
+    background-color: #4a028a;
+    color: white;
+}
+.Btn_white{
+    background-color: #e0e0e0;
+    color: black;
+}
+
+.Buttons {
+    margin-top: 60px;
+    display: flex;
+}
