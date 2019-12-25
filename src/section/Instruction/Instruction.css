@@ -1,0 +1,50 @@
+.Instruction {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #f0eded;
+}
+
+.Instruction__container {
+    max-width: 1200px;
+    text-align: left;
+    margin-right: 96px;
+    margin-left: 96px;
+    padding-top: 40px;
+}
+
+.Instruction__main {
+    display: flex;
+}
+
+.Instruction__left {
+    flex: 1;
+}
+
+.Instruction__left_title {
+    font-size: 38px;
+}
+
+.Instruction__separator {
+    background-color: #222222;
+    max-width: 50px;
+    width: 100%;
+    height: 3px;
+    display: block;
+}
+
+.Instruction__left_text {
+    max-width: 500px;
+    font-weight: 300;
+    line-height: 1.55;
+}
+.Instruction__right {
+    display: flex;
+    flex-direction: column;
+}
+.Instruction__right_image {
+    background-image: url('https://thumb.tildacdn.com/tild3839-6662-4734-b530-333438633431/-/cover/920x1120/center/center/-/format/webp/portfolio-11_2.jpg');
+    height: 560px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

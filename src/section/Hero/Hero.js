@@ -1,9 +1,11 @@
 import React from 'react';
 import './Hero.css';
 import Button from '../../button';
+import Instruction from '../../section/Instruction';
 
 const Hero = () => {
     return (
+        <div>
         <header className="Hero ">
             <div className="Hero__container">
                 <p className="Hero__title">Инструкция по программе Startup Visa Испания</p>
@@ -14,8 +16,9 @@ const Hero = () => {
                     <Button newClassName="Btn_white" btnName="Позвоните мне" />
                 </div>
             </div>
-
         </header>
+        <Instruction />
+        </div>
     )
 }
 

@@ -1,0 +1,11 @@
+.Advantages {
+    margin-top: 40px;
+    background-color: white;
+}
+.Advantages__title {
+    font-size: 42px;
+    line-height: 1.23;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
