@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import Button from '../../button';
-import Instruction from '../../section/Instruction';
+
 
 const Hero = () => {
     return (
@@ -17,7 +17,6 @@ const Hero = () => {
                 </div>
             </div>
         </header>
-        <Instruction />
         </div>
     )
 }

@@ -1,6 +1,7 @@
 .Advantages {
     margin-top: 40px;
     background-color: white;
+    margin-bottom: 80px;
 }
 
 .Advantages__title {
@@ -11,10 +12,9 @@
     text-align: center;
 }
 
-.Advantages__lists {
+.Advantages__list {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     position: relative;
 }
@@ -23,6 +23,10 @@
     max-width: 360px;
     list-style-type: none;
     position: relative;
+    margin-right: 10px;
+}
+.Advantages__item:last-child {
+    margin-right: 0px; 
 }
 
 .Advantages__item_title {
@@ -31,12 +35,14 @@
     font-weight: 700;
     padding-top: 65px;
     padding-bottom: 10px;
+    font-size: 20px;
 }
 
 .Advantages__item_text {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #000;
+    font-size: 14px;
 }
 
 .Advantages__number-background {

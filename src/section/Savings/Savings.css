@@ -1,0 +1,50 @@
+.Savings {
+    height: 454px;
+    background-image: linear-gradient(to top, rgba(74, 2, 138, 0.7), rgba(74, 2, 138, 0.7)), url('https://thumb.tildacdn.com/tild6433-6564-4637-a664-633236363765/-/format/webp/blob.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.Savings__title {
+    font-size: 44px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.Savings__description {
+    max-width: 600px;
+    color: #fff;
+    font-size: 22px;
+    
+}
+.Savings__button {
+    margin-top: 70px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Savings__Btn_white{
+    background-color: #cac8cc;
+}
+.Savings__icon {
+    width: 45px;
+    position: absolute;
+    /* left: -30px; */
+    transform: translateX(-100%);
+    fill: #ffe100;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    margin-left: -30px;
+}
+.Savings__btn {
+    position: relative;
+}

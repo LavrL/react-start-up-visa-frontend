@@ -2,6 +2,9 @@
     padding-top: 90px;
     padding-bottom: 90px;
     background-color: #f0eded;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Instruction__container {
