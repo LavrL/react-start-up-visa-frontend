@@ -27,6 +27,26 @@ const Advantages = () => {
                     <div className="Advantages__number-background">3</div>
                 </li>
 
+                <li className="Advantages__item">
+                    <div className="Advantages__item_title">Заполненные шаблоны документов и форм для ВНЖ</div>
+                    <p className="Advantages__item_text">Заполненные бизнес-планы, мотивационные письма, анкеты, бланки и т.д. 
+                    В целом все то, что вам будет необходимо заполнить для получения ВНЖ по программе.</p>
+                    <div className="Advantages__number-background">4</div>
+                </li>
+
+                <li className="Advantages__item">
+                    <div className="Advantages__item_title">Контакты всех учреждений, участвующих в процессе</div>
+                    <p className="Advantages__item_text">Контакты посольств, переводчиков, МФЦ, юристов, фасилитаторов. Более того, 
+                    вы можете воспользоваться услугами партнеров, если вам не хочется тратить свое время.</p>
+                    <div className="Advantages__number-background">5</div>
+                </li>
+
+                <li className="Advantages__item">
+                    <div className="Advantages__item_title">Доступ к личному кабинету и системе управления процессом</div>
+                    <p className="Advantages__item_text">Пошаговая система уровней позволит контролировать процесс подготовки к 
+                    получению ВНЖ (данная функция будет доступна в ближайшее время).</p>
+                    <div className="Advantages__number-background">6</div>
+                </li>
 
             </ul>
         </div>
