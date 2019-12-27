@@ -3,6 +3,11 @@
     background-color: white;
     margin-bottom: 80px;
 }
+.Advantages__container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .Advantages__title {
     font-size: 42px;
@@ -14,10 +19,11 @@
 
 .Advantages__list {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex-wrap: wrap;
     position: relative;
+    padding-left: 0px;
 }
 
 .Advantages__item {

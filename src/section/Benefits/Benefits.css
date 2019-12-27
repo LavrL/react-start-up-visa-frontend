@@ -1,6 +1,12 @@
 .Benefits {
-    padding-top: 90px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+}
+
+.Benefits__container {
+    max-width: 1200px;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .Benefits__title {
@@ -22,13 +28,13 @@
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 80px;
+    padding-left: 0px;
 }
 
 .Benefits__item {
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
     text-align: left;
     max-width: 360px;
     margin-right: 40px;

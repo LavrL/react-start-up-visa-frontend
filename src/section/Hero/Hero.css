@@ -9,6 +9,7 @@
     position: relative;
     background-attachment: fixed;
     overflow: hidden;
+    background-size: cover;
 }
 
 .Hero__container {
@@ -17,10 +18,10 @@
     left: 0;
     bottom: 0;
     right: 0;
-    max-width: 620px;
+    max-width: 1200px;
     text-align: left;
-    margin-right: 96px;
-    margin-left: 96px;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 40px;
 }
 
